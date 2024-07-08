@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="ruffle.js"></script>
+</head>
+<body>
+    <ruffle-player>
+        <source src="your-file.swf" type="application/x-shockwave-flash">
+    </ruffle-player>
+    <script>
+        const ruffle = window.RufflePlayer.newest();
+        const player = ruffle.createPlayer();
+        document.body.appendChild(player);
+    </script>
+</body>
+</html>
